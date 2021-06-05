@@ -1,0 +1,59 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    height: 30px;
+    transition: 0.5s all ease-in;
+  }
+  .logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+  }
+  
+  .avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+  }
+  .nav_black {
+    background-color: #111;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #000;
+    min-width: 16rem;
+    padding: 1rem;
+    margin: 0%;
+    margin-top: 0.4rem;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content  {
+  list-style: none;
+  
+  
+}
+.dropdown-content li{
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
