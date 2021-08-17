@@ -1,6 +1,6 @@
 # Netflix Clone 
 
-### [Live Site](https://airbnb-clone-beta-one.vercel.app/)
+### [Live Site](https://netflix122.netlify.app/)
 
 [![screenbud-b8c8f914-3a7e-4e64-9f16-b7a86bf4ca28.png](https://i.postimg.cc/c4XCsnjH/screenbud-b8c8f914-3a7e-4e64-9f16-b7a86bf4ca28.png)](https://postimg.cc/PPvTyPds)
 This is a code repository for the Netflix clone 
