@@ -10,7 +10,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
   const [trailerURL, SettrailerUrl] = useState("");
   const base_url = "http://image.tmdb.org/t/p/original/";
-  const [{}, dispatch] = useStateValue();
+  const [{detail}, dispatch] = useStateValue();
   const history = useHistory();
   useEffect(() => {
     async function fetchData() {

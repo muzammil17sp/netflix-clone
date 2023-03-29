@@ -6,7 +6,7 @@ import { useStateValue } from "../../context/StateProvider";
 import { useHistory } from "react-router";
 function Banner() {
   const [movie, setMovie] = useState({});
-  const [{}, dispatch] = useStateValue();
+  const [{detail}, dispatch] = useStateValue();
 const history = useHistory()
  
   function truncate(str, n) {
